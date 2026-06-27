@@ -1,45 +1,49 @@
-# 🤖 TrustOsAiAlgorithm
+# 🚀 TrustOsAiAlgorithm
 
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-![Python](https://img.shields.io/badge/python-3.10+-blue)
-![AI](https://img.shields.io/badge/AI-Algorithm-orange)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
----
-
-## 🚀 Project Overview
-TrustOsAiAlgorithm is an AI-powered algorithm system designed for efficient data processing, pattern recognition, and intelligent decision-making.
-
-The goal of this project is to build a fast, accurate, and scalable AI logic system.
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Type](https://img.shields.io/badge/type-AI%20Platform-blue)
+![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
 ---
 
-## 🧠 Core Concept
-Input Data ➜ Preprocessing ➜ AI Algorithm Engine ➜ Decision / Prediction ➜ Output
+## 🌐 Overview
+
+TrustOsAiAlgorithm is an AI execution and orchestration platform designed for developers.
+
+It provides a unified system for:
+
+- AI model execution
+- Policy control and governance
+- Usage metering
+- Billing support
+- Multi-model orchestration
+
+The goal is to build a **secure, scalable, and controllable AI infrastructure layer** for applications and services.
 
 ---
 
-## ⚙️ Features
-- ⚡ High-speed algorithm processing  
-- 🧠 AI-based decision logic  
-- 📊 Data-driven computation  
-- 🔧 Modular architecture  
-- 🔗 Easy system integration  
-- 📁 Custom dataset support  
+## 🎯 Core Vision
+
+To create a centralized AI control system where developers can:
+
+- Run multiple AI models under one platform
+- Apply usage policies and restrictions
+- Track API consumption in real time
+- Enable automated billing based on usage
+- Orchestrate AI workflows efficiently
 
 ---
 
-## 🛠️ Technologies Used
-- Python  
-- NumPy  
-- Pandas  
-- Custom AI / Algorithm logic  
+## ⚙️ Key Features
+
+- ⚡ AI Execution Engine
+- 🔐 Policy Control System (access, limits, rules)
+- 📊 Usage Metering (tokens / requests / compute tracking)
+- 💳 Billing & cost calculation layer
+- 🔄 Multi-Model Orchestration
+- 🧩 Plugin-based architecture
+- 🌍 Scalable backend design
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/ZawMyoOoytu/TrustOsAiAlgorithm.git
-cd TrustOsAiAlgorithm
-pip install -r requirements.txt
+## 🧠 System Concept
