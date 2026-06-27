@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0b0f1a, #05060a);
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  background: rgba(255,255,255,0.03);
+  border-right: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}
+
+.sidebar .logo {
+  color: #a855f7;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 12px 0;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* ================= MAIN ================= */
+.main {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* ================= PAGE ================= */
+.page h1 {
+  margin-bottom: 20px;
+}
+
+/* ================= STATS ================= */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 15px;
+  border-radius: 14px;
+}
+
+/* ================= GRID ================= */
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.panel {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 20px;
+  min-height: 200px;
+}
+
+/* ================= AGENT ================= */
+.inputBox {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  background: #0f172a;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: auto;
+}

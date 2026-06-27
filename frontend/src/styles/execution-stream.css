@@ -1,0 +1,151 @@
+/* =========================
+   TRUSTOS AI STREAM UI
+========================= */
+
+.stream-container {
+  background: #0A0F1C;
+  color: #E6EDF7;
+  height: 100vh;
+  padding: 20px;
+  font-family: Inter, sans-serif;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.stream-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   STATUS BADGES
+========================= */
+
+.status {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: #1a2338;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* states */
+.status.running {
+  color: #4DA3FF;
+  box-shadow: 0 0 10px rgba(77, 163, 255, 0.15);
+}
+
+.status.completed {
+  color: #2EE59D;
+  box-shadow: 0 0 10px rgba(46, 229, 157, 0.15);
+}
+
+.status.failed {
+  color: #FF4D4D;
+  box-shadow: 0 0 10px rgba(255, 77, 77, 0.15);
+}
+
+/* trust score */
+.trust {
+  color: #A78BFA;
+  font-weight: 600;
+}
+
+/* =========================
+   LOG CONTAINER
+========================= */
+
+.log-box {
+  background: #111A2E;
+  padding: 16px;
+  border-radius: 12px;
+  height: 70vh;
+  overflow-y: auto;
+  border: 1px solid #1f2a44;
+
+  /* smoother scroll feel */
+  scroll-behavior: smooth;
+}
+
+/* =========================
+   LOG LINES
+========================= */
+
+.log-line {
+  padding: 10px 12px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border-left: 3px solid transparent;
+
+  /* SaaS polish */
+  transition: all 0.2s ease;
+  border-radius: 6px;
+}
+
+/* hover UX */
+.log-line:hover {
+  background: rgba(255, 255, 255, 0.03);
+  transform: translateX(2px);
+}
+
+/* =========================
+   LOG TYPES
+========================= */
+
+.log-line.init {
+  border-left-color: #4DA3FF;
+}
+
+.log-line.policy {
+  border-left-color: #2EE59D;
+}
+
+.log-line.tool {
+  border-left-color: #FFB020;
+}
+
+.log-line.run {
+  border-left-color: #A78BFA;
+}
+
+.log-line.result {
+  border-left-color: #2EE59D;
+}
+
+/* =========================
+   DOT INDICATOR
+========================= */
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #4DA3FF;
+
+  /* subtle pulse animation */
+  animation: pulse 1.5s infinite;
+}
+
+/* animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
